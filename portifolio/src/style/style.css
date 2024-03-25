@@ -8,7 +8,7 @@
 }
 
 body{
-  background: linear-gradient(90deg, #060436fe, #060436fe, #0b06a1fe);
+  background-color: #18191a;
   color:#fff;
 }
 
@@ -100,11 +100,11 @@ header{
    content: "";
    position:absolute;
    height: 100%;
-   border-left: 2px solid blue;
+   border-left: 2px solid rgb(223, 223, 240);
    right: -10px;
    animation: cursor .5s infinite, digitando 20s steps(20) infinite;
    width: calc(100% + 20px);
-   background-color:#060436fe;
+   background-color: #18191a
  }
 
  @keyframes digitando {
@@ -173,6 +173,7 @@ footer{
 footer a{
   margin: 20px;
 }
+
 .container{
   padding: 0px 48px;
 }
@@ -342,30 +343,70 @@ font-family: "Poppins",sans-serif;
 padding-top: 300px;
 }
 
-
-.list-projects{
+.cardapio img{
+  width: 10%;
+  height: 70%;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
-  padding-top: 10%;
-  
+  margin-left: 355px;
 }
-
-.list-projects p{
+div.cardapio{
+  background-color: #bbbac4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.text_cardapio{
   text-align: center;
-  color: #fff;
+  padding: 10px 20px;  display: flex;
+  justify-content:space-around;
+  text-align: center;
+  background-color: #2718af;
 }
-
-.list-projects img{
+.Formulario img{
+  width: 10%;
+  height: 70%;
   display: flex;
   justify-content: center;
-  border-radius: 20px;
-  gap: 10%;
+  align-items: center;
+  margin-left: 355px;
+}
+div.Formulario{
+  background-color: #2718af;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.text_Formulario{
+  text-align: center;
+  padding: 10px 20px;  display: flex;
+  justify-content:space-around;
+  text-align: center;
+  background-color: #af183e;
 }
 
+.card_hover img{
+  width: 30%;
+  height: 70%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 355px;
+}
+ .card_hover{
+  align-items: center;
+  background-color: #ad4859;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.text_card_hover {
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+  background-color: #2718af;
 
-
-
+  
+ 
+}
 
 
 
