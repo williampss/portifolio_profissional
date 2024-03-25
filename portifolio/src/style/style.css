@@ -420,6 +420,18 @@ padding-top: 300px;
   border-radius: 20px;
 }
 
+@media screen  and (max-width: 425px) {
+  header{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 50px;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    padding: 70%;
+  }
+}
 
 
 
